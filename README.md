@@ -9,7 +9,7 @@
 
 1. 打开ubuntu 首先需要打命令：
 	sudo -i （进入到root 环境）
-2. 然后打 wget https://conflux-cloud.oss-cn-beijing.aliyuncs.com/maintain.sh （下载到ubuntu环境）
+2. 然后打  （下载到ubuntu环境）
   注：如果系统显示没有wget 则需打命令：apt update; apt install -y wget 然后打上述命令。
 3. chmod +x ./maintain.sh 
 4. ./maintain.sh start 
@@ -21,11 +21,3 @@
               assembler --addr=0x1234567... 开启归集脚本， --addr=后面是收到归集eth的地址
                                    还有一项需要注意的是 归集的地址集放在一个txt文本， 例子放在 /kiln/ethAddress/ 下面的eth_address_1.txt的里面 
 
-总结不易 容我打下广告，群主售卖kiln，
-3000以下 0.07rmb一个
-30000 0.06rmb
-300000 0.05rmb
-3000000 0.035rmb
-大额只收u
-
-详情请进kiln埋伏群 872059239 联系群主
